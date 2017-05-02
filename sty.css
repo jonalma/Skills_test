@@ -1,0 +1,126 @@
+/*General*/
+ body {
+    margin:0;
+    font-family: sans-serif;
+}
+.highlight_text {
+    color: #e65c00;
+    margin-top: 30px;
+}
+.grey_text {
+    color: #999999;
+    margin: 0;
+}
+.float_left {
+    float: left;
+}
+.float_right {
+    float: right;
+}
+.container_half {
+    margin: 0px 200px 0px 200px;
+}
+/* Header */
+ .header_text {
+    color: #b34700;
+    margin: 0px;
+}
+.header_text_white {
+    color: white;
+    padding-left:5px;
+}
+.header_bar {
+    background-color: #e65c00;
+    overflow: auto;
+    padding: 10px 0 10px 0;
+}
+
+/* Logo and Nav Title buttons*/
+ .nav_container {
+    overflow: visible;
+    margin-top: 30px;
+}
+.uo_list {
+    margin: 36px;
+}
+.list_item {
+    list-style-type: none;
+    display: inline;
+    padding: 0 5px 0 5px;
+}
+
+li:hover:not(.submenu_item){
+    border-bottom: 5px solid #e65c00;
+    padding-bottom: 2px;
+}
+
+/* For the dropdown/submenu, I referenced stack overflow
+http://stackoverflow.com/questions/18023493/bootstrap-3-dropdown-sub-menu-missing */ 
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu .dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+}
+
+.dropdown-submenu:hover .dropdown-menu {
+    display:block;
+}
+
+/*Contact container*/
+ .contact_container {
+    overflow: visible;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#contact_title {
+    margin-top: 40px;
+}
+.action_page {
+    margin-top: 150px;
+}
+/* Contact and Reach Container */
+ .contactAndReach_cont {
+    display: block;
+}
+.textborder {
+    width: 100%;
+    border-bottom: 5px solid #000000;
+    padding-bottom:10px;
+}
+.action_us_title {
+    margin-bottom: 20px;
+}
+.contact_div {
+    width: 40%;
+}
+.reach_div {
+    width: 50%;
+}
+.inputfields {
+    margin: 5px 0 5px 0;
+    display:table-cell;
+    width: 100%;
+}
+.input_inline {
+    display:inline;
+    width: 48%;
+    float: left;
+}
+.input_inline_right {
+    display:inline;
+    width: 48%;
+    float: right;
+}
+.form-button {
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #ff6200;
+    border: none;
+    padding: 10px 25px;
+    margin-top: 15px;
+}
